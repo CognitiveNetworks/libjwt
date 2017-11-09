@@ -22,7 +22,7 @@ Description: C Library for JSON Web Tokens
 Package: libjwt-dev
 Section: libdevel
 Architecture: any
-Depends: libjwt (= ${binary:Version}), ${misc:Depends}, libc6-dev
+Depends: libjwt0 (= ${binary:Version}), ${misc:Depends}, libc6-dev
 Multi-Arch: same
 Description: C Library for JSON Web Tokens
  This package includes the libjwt shared object library, needed to run
@@ -32,7 +32,7 @@ Package: libjwt-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libjwt (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libjwt0 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: C Library for JSON Web Tokens
  This package includes the libjwt shared object library, needed to run
