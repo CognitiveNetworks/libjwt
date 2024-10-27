@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: libjwt
+  description: JSON web token library
+  annotations:
+    github.com/project-slug: CognitiveNetworks/libjwt
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: library
+  lifecycle: production
+  owner: cognitivenetworks/core
